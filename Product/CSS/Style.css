@@ -1,0 +1,274 @@
+body
+{
+background-color: white;
+font-size: 30px; 
+font-family: 'Roboto', sans-serif;
+}
+
+form{
+margin-left: 200px;
+margin-right: 200px; 
+}
+
+.navbar{
+font-size: 15px;
+background-color: black; 
+padding-bottom: 0; 
+margin-bottom: 0px;
+} 
+
+.info{ 
+background-color: #D2D8D8;
+width: 100%;  
+position: relative; 
+color: black !important;
+text-align: left;
+vertical-align: middle;
+vertical-align: middle;
+} 
+ footer{ 
+text-align: center;
+font-size: 20px; 
+vertical-align: middle;
+position: relative;
+height: 70px; 
+background-color: #333;
+color: white} 
+
+.image{ 
+height: 300px;
+width: 300px;
+margin-left: auto; 
+margin-right: auto; 
+}
+
+#feature{
+text-align: center;
+font-size: 40px; 
+color: darkturquoise;  
+font-weight: 100; 
+font-family: 'Merriweather', serif; 
+}
+
+#titles{ 
+font-size: 25px; 
+text-align: center;
+vertical-align: middle;    
+ }
+
+.logo{ 
+margin-left: auto; 
+margin-right: auto; 
+display: block; 
+height: 60px; 
+width: 60px; }
+
+.call{
+ margin-left: auto; 
+margin-right: auto; 
+display: block; 
+
+}
+h4{
+text-align: center;
+}
+
+
+.carousel img {
+max-height: 750px;
+width: 100%; 
+} 
+
+
+#second{ 
+padding-left: 20px; 
+padding-right: 20px; 
+background-color: white; 
+padding-bottom: 20px; 
+margin-bottom: 30px; 
+vertical-align: middle; 
+}
+
+#third{  
+padding-top: 15px;
+}
+
+#list{ 
+align-items: center;
+text-align: center; 
+font-size: 30px; 
+}
+
+#heading{ 
+font-size: 30px; 
+text-align: center;
+font-family: 'Lustria', serif;
+}
+
+
+
+.images {
+margin:auto;
+display:block;
+vertical-align:middle;
+clear: both;
+}
+
+hr{
+position: relative;  
+margin-top: 20px;
+margin-bottom: 20px;
+border: 2;
+border-top: 1px solid #333;
+}
+
+
+.trick{ 
+font-size: 90px;font-family: 'Merriweather', serif;
+}
+
+
+table{ 
+table-layout: auto;     
+border-radius: 15px; 
+ }
+
+#dial{ 
+height: 350px; 
+width: 80%; 
+position: relative;
+}
+
+td {
+border: 2px solid;  
+text-align: left;
+padding: 8px;
+}
+
+#services{
+font-family: 'Lustria', serif; 
+font-size: 30px; 
+padding-top: 10px; 
+font-weight: 1000; 
+}
+
+
+#contactjumbo{ 
+height: 600px;
+padding-top:0 !important; 
+margin-top: 0px !important; 
+font-family:'Lustria', serif; 
+font-size: 50px; 
+text-align: center;
+position: relative;
+}
+
+#number{ 
+font-family: 'Merriweather', serif; 
+font-size: 30px; 
+text-align: center; 
+}
+#number2{ 
+font-family: 'Merriweather', serif; 
+font-size: 30px; 
+text-align: center;
+color: white;
+padding-left: 10px; 
+    padding-right: 10px; 
+}
+#details{
+font-size: 20px; 
+text-align: center; 
+margin-left: 140px; 
+margin-right: 140px;
+}
+
+#email{
+font-size: 25px;
+}
+
+form{
+position: relative; 
+margin-left: 140px; 
+margin-right: 140px;
+}
+
+#last{
+margin-bottom: 0 !important; 
+padding: 0 !important;
+}
+
+.btn{
+background-color: #CFF5F3; 
+color: black;
+}
+
+#number1{
+color: black; 
+font-size: 20px; 
+text-align: left;
+font-family: Lustria sans-serif;
+font-weight: 700;
+}
+
+#details1{ 
+color: black; 
+font-size: 15px;
+}
+
+
+td{ 
+border: 0px; 
+background-color: #BBF1F5; 
+}
+
+#spcldiv{ 
+background-color: black; 
+font: black; 
+font-size: 0.0001px; 
+}
+
+.carousel-caption {
+font-size: 50px;
+top: 50%;
+transform: translateY(-50%);
+bottom: initial; 
+}
+
+.cologo{
+vertical-align:middle;
+  margin:0 10px;
+height: 80px;
+    
+    
+}
+#theone{
+font-size: 10px; !important
+} 
+
+#covertitle { 
+font-size: 100px;
+}
+
+
+.white_bg 
+{
+background-color: #ffffff;
+padding: 3px; 
+color: black;
+font-size: 80px;
+}
+
+#hiring{
+background-color: #BBF1F5;
+padding-bottom: 0 px;
+padding-left: 30px;
+padding-right: 30px; 
+text-align: center;
+    
+}
+
+#maintitle{
+  font-family:'Lustria', serif;
+    font-size: 50px; 
+}

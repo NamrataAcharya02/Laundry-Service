@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="This website will help provide a convenient way for you to manage your laundry! With great customer service and picking up/delivery at your doorstep, laundry will no longer be a hassle! Click here to take a look at what we offer!" />
+<meta name="keywords" content="Laundry, Laundry service, clothes, dry cleaning, washing, folding, ironing, steam pressing, home delivery" />
+    
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+   
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <link href="../CSS/Style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lustria">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="../Webpages/index.html"><img src="../Assets/logo.jpg" height="25px" style="padding-left: 20px" alt="Company logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav">
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../Webpages/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../Webpages/index.html#features">Features</a>
+          <a class="dropdown-item" href="../Webpages/index.html#price">Pricing</a>
+        </div>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="../Webpages/index.html#about">About</a>
+      </li>
+      
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../Webpages/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../Webpages/contact.html#contact">Contact information</a>
+          <a class="dropdown-item" href="../Webpages/contact.html#map">Location</a>
+            <a class="dropdown-item" href="../Webpages/contact.html#hiring">Employment information</a>
+        </div>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="../Webpages/feedback.html">Feedback</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+    
+<div class="jumbotron" id="contactjumbo" style="background-color: #CFF5F3" style="max-width: 100%"> 
+    <p style="font-size: 50px"> We are a call away. </p>
+    <img src="../Assets/phones.jpg" id="dial" style="height: 400px" width="100%" alt="Telephones">
+    </div>
+    <a name="call"></a>
+    <div style="position:relative"> 
+    <div class="row">
+        
+    <div class="col-lg-6 col-md-6">
+<div  id="last">
+<p id="number"> Need us to stay in touch? </p><br>
+    <p id="details">Enter your details below and we will get back to you. Do sign up to receive regular updates on deliveries!</p>        
+        
+    
+    </div>    
+    </div>
+    <div class="col-lg-1 col-md-1">
+        </div>
+     <div class="col-lg-4 col-md-4"> 
+        <p id="number">Reach out to us at
+        
+        <img src="../Assets/call.jpg" class=call alt="Telephone logo"> 
+       
+        +91 993480293840
+        
+    </p>
+        </div>     
+    </div>
+    
+    <div class="row">
+    <div class="col-lg-6 col-md-6">              
+  <form id="contact-form" method="post" action="../PHP/send_mail.php?action=contact" role="form">
+      <div class="form-group"> 
+                    <label for="form_name" class="lead">Firstname </label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+    <div class="form-group">
+                    <label for="form_lastname" class="lead">Lastname </label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+          <div class="form-group">
+                    <label for="form_email" class="lead">Email </label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+
+            </div>
+     
+
+        
+       
+        <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message" >
+            </div>
+    </div>
+ 
+</form>
+
+        </div>
+        
+        <div class="col-lg-1 col-md-1">
+        </div>
+        <div class="col-lg-4 col-md-4"> 
+        <p id="number">Mail us at
+        
+        <img src="../Assets/mail2.png" class="logo" alt="Mail logo"> 
+       
+     <a href="mailto:guddu.kanojia@gmail.com ">rk.laundryservice@gmail.com
+        </a>
+    </p>
+        </div>
+        </div>
+            </div>
+    <a name="map"></a>
+    <br>
+<div class="container-fluid" style="max-width: 100%"> 
+<div class="row" style="background-color: black" style="position:relative">
+    <div class="col-lg-1 col-md-1"></div>
+<div class="col-lg-4 col-md-4">
+    <div class="mapouter" style="position: relative">
+        <div class="gmap_canvas">
+            
+            <iframe style="height: 500px; width: 600px" id="gmap_canvas" src="https://maps.google.com/maps?q=shree%20vidyadaan%20society%2C%20sector%2021%2C%20kharghar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" align="center"></iframe>
+        
+        </div><style>.mapouter{position:relative;text-align:center;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+    </div>    
+    </div>
+        
+       <div class="col-lg-2 col-md-2"></div>
+
+<div class="col-lg-4 col-md-4">
+    <br>
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+    <p id="number2" style="font-size: 30px" style="text-align: center">
+   <img src="../Assets/map.png" style="height: 40px" alt="Map pointer"> Shri Vidyadaan CHS Ltd, Sector 21, Kharghar, Navi Mumbai, Maharashtra 410210    
+            </p>  
+    
+</div>  
+     </div>  
+             
+    </div>       
+   <a name="hiring"></a>
+         <br>  
+    
+    <div style="padding: 30px" id="hiring">
+    <p id="number"> Hiring<p>
+    <p style="font-size: 25px"> We are now hiring deliverers to pick up and drop clothes at houses across the town. Contact the number given above for details. </p>
+        
+    </div>
+  
+<br>
+    <a name="about"></a>
+  
+    <div class="container-fluid info">
+     
+    <div class="row" >
+     <div class="col-lg-6 col-md-6">
+        <p id="number1">
+         About
+         </p>
+         
+         <p id="details1"> Laundry Service is an affordable and convenient way to manage your laundry from the comfort of your home. The owner, Mr. Kanojia, has been running this business since the past 17 years and thus understands the importance of customer loyalty and reasonable prices. They offer their services primarily in Kharghar, commonly in sectors 20 to 25. </p>
+        
+        
+        </div>  
+       
+       <div class="col-lg-3 col-md-3">
+        <p id="number1">
+         Operating hours
+         </p>
+         
+         <p id="details1"> 7 am to 10 pm </p>
+        <p id="number1">
+            Calling hours 
+           </p>
+          <p id="details1"> 7 am to 11 pm </p> 
+        
+        </div>  
+        <div class="col-lg-3 col-md-3">
+        <p id="number1">
+         Office
+         </p>
+         
+         <p id="details1"> Shri Vidyadaan CHS Ltd, Sector 21, Kharghar, Navi Mumbai, Maharashtra 410210</p>
+        
+        
+        </div>  
+       </div>
+       
+       </div>
+       
+
+   <footer style="height: 70px; background-color: #333;color: white">
+        <br> <img src="../Assets/logo.jpg" height="25px" alt="Company logo"> &#169; 2020 All rights reserved 
+</footer>
+       
+
+</body>
+</html>
