@@ -11,11 +11,14 @@ margin-right: 200px;
 }
 
 .navbar{
+
+color: white;
 font-size: 15px;
 background-color: black; 
 padding-bottom: 0; 
 margin-bottom: 0px;
-} 
+}
+
 
 .info{ 
 background-color: #D2D8D8;
@@ -25,15 +28,14 @@ color: black !important;
 text-align: left;
 vertical-align: middle;
 vertical-align: middle;
-} 
- footer{ 
+}
+
+footer{ 
 text-align: center;
 font-size: 20px; 
 vertical-align: middle;
 position: relative;
-height: 70px; 
-background-color: #333;
-color: white} 
+}
 
 .image{ 
 height: 300px;
@@ -63,22 +65,20 @@ display: block;
 height: 60px; 
 width: 60px; }
 
-.call{
- margin-left: auto; 
-margin-right: auto; 
-display: block; 
-
-}
 h4{
 text-align: center;
 }
 
+.carousel.inner{ 
+margin-top: 0px; 
+padding-top: 0px;
+width: 1100px;
+height:750px;}
 
 .carousel img {
 max-height: 750px;
 width: 100%; 
-} 
-
+}
 
 #second{ 
 padding-left: 20px; 
